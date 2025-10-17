@@ -1,0 +1,11 @@
+name: mp
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pymeep
+  - ipykernel
+  - pip
+  - pip:
+      - autograd
+      - nlopt
